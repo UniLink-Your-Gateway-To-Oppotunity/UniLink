@@ -1,9 +1,15 @@
+import Navbar from "@/components/layout/Navbar";
+import Hero from "@/components/landing/Hero";
+import Features from "@/components/landing/Features";
+import CTA from "@/components/landing/CTA";
+
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-black">
-      <h1 className="text-4xl font-bold text-red-500">
-        Tailwind Test
-      </h1>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <Features />
+      <CTA />
+    </>
   );
 }
