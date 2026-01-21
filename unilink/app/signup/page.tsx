@@ -135,7 +135,7 @@ export default function SignupPage() {
             </div>
 
             <Link
-              href="/dashboard"
+              href="/profile"
               className="flex w-full items-center justify-center rounded-xl bg-neutral-900 px-4 py-3 text-sm font-medium text-white transition-colors hover:bg-neutral-800"
             >
               Create Account
