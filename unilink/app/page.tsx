@@ -62,10 +62,10 @@ export default function Home() {
                       />
                     ))}
                   </div>
-                  <span>2,000+ students</span>
+                  <span>20+ students</span>
                 </div>
                 <div className="h-4 w-px bg-neutral-200" />
-                <span>500+ projects completed</span>
+                <span>5+ projects completed</span>
               </div>
             </div>
           </div>
